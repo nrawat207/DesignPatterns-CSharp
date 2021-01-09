@@ -37,6 +37,13 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="Strategy\DefaultLabelPrint.cs" />
+    <Compile Include="Strategy\FoodLabelPrint.cs" />
+    <Compile Include="Strategy\ILabelPrint.cs" />
+    <Compile Include="Strategy\Label.cs" />
+    <Compile Include="Strategy\PharmaLabel.cs" />
+    <Compile Include="Strategy\Printer.cs" />
+    <Compile Include="Strategy\ThermalLabelPrint.cs" />
     <Compile Include="TemplateMethod\DesignFileProcess.cs" />
     <Compile Include="TemplateMethod\FileProcess.cs" />
     <Compile Include="TemplateMethod\IFile.cs" />
