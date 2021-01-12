@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Observer\SalesServiceTest.cs" />
     <Compile Include="Strategy\PrinterTest.cs" />
     <Compile Include="TemplateMethod\MachineFileProcessTest.cs" />
   </ItemGroup>

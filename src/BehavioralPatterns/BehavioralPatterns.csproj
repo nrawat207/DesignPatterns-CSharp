@@ -37,6 +37,11 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="Observer\BillingService.cs" />
+    <Compile Include="Observer\Messages\OrderPlaced.cs" />
+    <Compile Include="Observer\SalesService.cs" />
+    <Compile Include="Observer\ShippingService.cs" />
+    <Compile Include="Observer\Unsubscriber.cs" />
     <Compile Include="Strategy\DefaultLabelPrint.cs" />
     <Compile Include="Strategy\FoodLabelPrint.cs" />
     <Compile Include="Strategy\ILabelPrint.cs" />
