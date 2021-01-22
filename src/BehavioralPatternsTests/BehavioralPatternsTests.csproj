@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command\MachineControllerTests.cs" />
+    <Compile Include="Memento\PlayerTest.cs" />
     <Compile Include="Observer\SalesServiceTest.cs" />
     <Compile Include="Strategy\PrinterTest.cs" />
     <Compile Include="TemplateMethod\MachineFileProcessTest.cs" />
