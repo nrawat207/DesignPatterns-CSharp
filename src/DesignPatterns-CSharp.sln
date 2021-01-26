@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatterns", "Behav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatternsTests", "BehavioralPatternsTests\BehavioralPatternsTests.csproj", "{2DD3ECBA-1B6D-49C9-B051-346FD7EAD9C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns", "StructuralPatterns\StructuralPatterns.csproj", "{7496B792-B4CB-475A-8C43-FF79F22523E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatternsTest", "StructuralPatternsTest\StructuralPatternsTest.csproj", "{CB66FE1B-461C-4CBA-A132-E1A3FC864ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2DD3ECBA-1B6D-49C9-B051-346FD7EAD9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD3ECBA-1B6D-49C9-B051-346FD7EAD9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD3ECBA-1B6D-49C9-B051-346FD7EAD9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7496B792-B4CB-475A-8C43-FF79F22523E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7496B792-B4CB-475A-8C43-FF79F22523E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7496B792-B4CB-475A-8C43-FF79F22523E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7496B792-B4CB-475A-8C43-FF79F22523E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB66FE1B-461C-4CBA-A132-E1A3FC864ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB66FE1B-461C-4CBA-A132-E1A3FC864ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB66FE1B-461C-4CBA-A132-E1A3FC864ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB66FE1B-461C-4CBA-A132-E1A3FC864ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
