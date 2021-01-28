@@ -39,6 +39,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\DataService.cs" />
+    <Compile Include="Adapter\DataSourceAdapter.cs" />
+    <Compile Include="Adapter\IDataSource.cs" />
     <Compile Include="Decorator\EmailNotifier.cs" />
     <Compile Include="Decorator\FacebookNotifier.cs" />
     <Compile Include="Decorator\INotifier.cs" />
@@ -46,5 +49,6 @@
     <Compile Include="Decorator\SmsNotifier.cs" />
     <Compile Include="Decorator\TwitterNotifier.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
